@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CarClass_Homework
+namespace CarClassExample
 {
     class Program
     {
         static void Main(string[] args)
         {
+
+            Car car = new Car();
+
+            car.GasLevel = 10f;
+            car.AddGas(10);
+
         }
     }
 }
